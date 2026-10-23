@@ -1,25 +1,23 @@
-package com.example;
+cloud
 
-public class App {
+SLAs :write define and lenthy answer
+Defination: An SLA is a contract between a service provider and a customer that defines the quality and performance of the service.
+components: service description: what services are provided .
+            performance metrics: ex uptime response time 
+            responsibility: duties of provider and customer  
+            penalities : what happens if SLA is not met(eg.,refunds)
+            monitoring & reporting : how performance is checked the reported.
 
-    public static String calculateGrade(int marks) {
-        if (marks < 0 || marks > 100) {
-            return "Invalid";
-        } else if (marks >= 75) {
-            return "A";
-        } else if (marks >= 60) {
-            return "B";
-        } else if (marks >= 40) {
-            return "C";
-        } else {
-            return "D";
-        }
-    }
+IMP for exam Scalability and elasticity:
+scalability: ability of a system to handle more work by adding resources 
 
-    public static void main(String[] args) {
-        int marks = 85;
+*Horizontal vs vertical scaling:
+*load balancing technique:
+*auto scaling strategies:
+cost management in cloud :
+pricing models (major providers like AWS)
+Data base management system:
+data warehousing
+big data processing frameworks
+diseater recovery business continity
 
-        System.out.println("Student Marks: " + marks);
-        System.out.println("Grade: " + calculateGrade(marks));
-    }
-}
